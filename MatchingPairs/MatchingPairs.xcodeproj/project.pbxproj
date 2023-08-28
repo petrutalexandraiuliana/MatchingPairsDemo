@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069D2E082A9D02CB00821510 /* CardView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 069D2E072A9D02CB00821510 /* CardView.a */; };
 		06A64B592A99FC2A0070183E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64B582A99FC2A0070183E /* AppDelegate.swift */; };
 		06A64B5B2A99FC2A0070183E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64B5A2A99FC2A0070183E /* SceneDelegate.swift */; };
 		06A64B622A99FC2B0070183E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06A64B612A99FC2B0070183E /* Assets.xcassets */; };
@@ -17,7 +18,6 @@
 		06A64B8F2A99FC8D0070183E /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64B8E2A99FC8D0070183E /* WelcomeScreen.swift */; };
 		06A64B942A9A03520070183E /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64B932A9A03520070183E /* GameScreen.swift */; };
 		06A64B972A9A07230070183E /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64B962A9A07230070183E /* GameViewModel.swift */; };
-		06A64B9C2A9A0A9E0070183E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64B9B2A9A0A9E0070183E /* CardView.swift */; };
 		06A64BB12A9A24350070183E /* Difficulty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64BB02A9A24350070183E /* Difficulty.swift */; };
 		06A64BB32A9A28690070183E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64BB22A9A28690070183E /* Utils.swift */; };
 		06A64BB52A9A28830070183E /* DefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A64BB42A9A28830070183E /* DefaultTheme.swift */; };
@@ -45,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069D2DD82A9CF89D00821510 /* CardView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = CardView.a; path = CradView/CardView.a; sourceTree = "<group>"; };
+		069D2DED2A9CFD5100821510 /* FlippingCard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = FlippingCard.a; path = ../FlippingCard/FlippingCard.a; sourceTree = "<group>"; };
+		069D2DEF2A9CFDBC00821510 /* FlippingCard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = FlippingCard.a; path = FlippingCard/FlippingCard.a; sourceTree = "<group>"; };
+		069D2E052A9D014700821510 /* CardView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = CardView.a; path = CardViewLib/CardView.a; sourceTree = "<group>"; };
+		069D2E072A9D02CB00821510 /* CardView.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = CardView.a; path = CardLib/CardView.a; sourceTree = "<group>"; };
 		06A64B552A99FC2A0070183E /* MatchingPairs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatchingPairs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06A64B582A99FC2A0070183E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06A64B5A2A99FC2A0070183E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +64,6 @@
 		06A64B8E2A99FC8D0070183E /* WelcomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		06A64B932A9A03520070183E /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
 		06A64B962A9A07230070183E /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
-		06A64B9B2A9A0A9E0070183E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		06A64BB02A9A24350070183E /* Difficulty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Difficulty.swift; sourceTree = "<group>"; };
 		06A64BB22A9A28690070183E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		06A64BB42A9A28830070183E /* DefaultTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTheme.swift; sourceTree = "<group>"; };
@@ -74,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069D2E082A9D02CB00821510 /* CardView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +99,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069D2DD72A9CF89D00821510 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				069D2E052A9D014700821510 /* CardView.a */,
+				069D2E072A9D02CB00821510 /* CardView.a */,
+				069D2DED2A9CFD5100821510 /* FlippingCard.a */,
+				069D2DEF2A9CFDBC00821510 /* FlippingCard.a */,
+				069D2DD82A9CF89D00821510 /* CardView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		06A64B4C2A99FC2A0070183E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +118,7 @@
 				06A64B6E2A99FC2C0070183E /* MatchingPairsTests */,
 				06A64B782A99FC2C0070183E /* MatchingPairsUITests */,
 				06A64B562A99FC2A0070183E /* Products */,
+				069D2DD72A9CF89D00821510 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,7 +220,6 @@
 		06A64B922A9A03400070183E /* GameScreen */ = {
 			isa = PBXGroup;
 			children = (
-				06A64B9A2A9A0A8E0070183E /* CardView */,
 				06A64B932A9A03520070183E /* GameScreen.swift */,
 				06A64B962A9A07230070183E /* GameViewModel.swift */,
 			);
@@ -215,14 +232,6 @@
 				06A64BB22A9A28690070183E /* Utils.swift */,
 			);
 			path = Util;
-			sourceTree = "<group>";
-		};
-		06A64B9A2A9A0A8E0070183E /* CardView */ = {
-			isa = PBXGroup;
-			children = (
-				06A64B9B2A9A0A9E0070183E /* CardView.swift */,
-			);
-			path = CardView;
 			sourceTree = "<group>";
 		};
 		06A64BB62A9A31780070183E /* Models */ = {
@@ -390,7 +399,6 @@
 				06A64B592A99FC2A0070183E /* AppDelegate.swift in Sources */,
 				06A64BB12A9A24350070183E /* Difficulty.swift in Sources */,
 				06A64B8F2A99FC8D0070183E /* WelcomeScreen.swift in Sources */,
-				06A64B9C2A9A0A9E0070183E /* CardView.swift in Sources */,
 				06A64B5B2A99FC2A0070183E /* SceneDelegate.swift in Sources */,
 				06A64BC02A9A37F50070183E /* ConfigurationScreenView.swift in Sources */,
 			);
@@ -561,10 +569,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/CardViewLib",
+					"$(PROJECT_DIR)/CardLib",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jjj.MatchingPairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CardViewLib $(PROJECT_DIR)/CardLib";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -588,10 +601,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/CardViewLib",
+					"$(PROJECT_DIR)/CardLib",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = jjj.MatchingPairs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/CardViewLib $(PROJECT_DIR)/CardLib";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
