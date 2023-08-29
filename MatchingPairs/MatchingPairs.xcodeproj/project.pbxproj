@@ -174,13 +174,6 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		06A64B8A2A99FC7F0070183E /* Components */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Components;
-			sourceTree = "<group>";
-		};
 		06A64B8B2A99FC7F0070183E /* GameConfig */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,7 +197,6 @@
 			isa = PBXGroup;
 			children = (
 				06A64B8D2A99FC8D0070183E /* Screens */,
-				06A64B8A2A99FC7F0070183E /* Components */,
 			);
 			path = UI;
 			sourceTree = "<group>";
